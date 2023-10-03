@@ -1,6 +1,35 @@
 1. nodeJS
+
 2. Npm init 
+    + npm init được sử dụng để khởi tạo một dự án Node.js mới 
+    và tạo một tệp package.json 
+    chứa thông tin và quản lý các phụ thuộc của dự án.
+
 3. express
+    + Express là một framework phát triển ứng dụng web cho Node.js.
+    + Xây dựng ứng dụng web: Express cung cấp các phương thức như 
+    get, post, put, delete để xử lý các yêu cầu HTTP đến từ trình duyệt web. 
+    Bạn có thể tạo các định tuyến (routes) để định nghĩa các hành động cụ thể cho mỗi yêu cầu.
+    + Xử lý middleware: Express cho phép bạn xây dựng middleware 
+    để thực hiện các chức năng trung gian trước khi yêu cầu đến
+    đích cuối cùng. 
+    Ví dụ, bạn có thể sử dụng middleware để xác thực yêu cầu,
+    ghi log, xử lý lỗi, hoặc thực hiện các chức năng phổ biến khác.
+    + Quản lý tài nguyên tĩnh:
+    Express cho phép bạn phục vụ các tệp tĩnh như hình ảnh,
+    tệp CSS và JavaScript cho trình duyệt. 
+    Điều này rất hữu ích khi bạn muốn cung cấp
+    các tài nguyên tĩnh cho ứng dụng web của mình
+    + CRUD 
+
 4. ejs : template engines
     + Tài liệu : https://drive.google.com/file/d/19Tz3obQxsJ9yVk_NS1h_JNIxWZDWv1Sd/view
     + docs liên quan template engines : https://expressjs.com/en/guide/using-template-engines.html
+    + 18 Teamplate engine
+
+5. env 
+    + không đẩy lên github
+    + cài đặt dotenv npm và import require('dotenv').config(); file js mới get được value 
+    - env.Example : để chia sẻ cho ae code khác, nhưng chỉ để lại key: value bỏ
+
+ 
