@@ -31,5 +31,28 @@
     + không đẩy lên github
     + cài đặt dotenv npm và import require('dotenv').config(); file js mới get được value 
     - env.Example : để chia sẻ cho ae code khác, nhưng chỉ để lại key: value bỏ
+6. DevTool - Nodemon
+    - Nodemon
+        + không cần re-start dự án tự cập nhật UI : js, mjs, coffee , litcoffee
+    - Sự khác nhau của Dependencies và devDependencies
+#21. Static files | Backend RESTFul Server Node.JS (SQL/MongoDB) Cho Beginners
+    - Thêm ảnh hoặc css hoặc javascript
+        + thêm thư mục public ( css , img . js )
+        + lưu ý file js này xử lý chỗ view html , animation , thao tác với dom. 
+        nó không phải logic cho ứng dụng app của chúng ta , 1 cái js phía sever và 
+        1 cái ở client
+    - ở thư mục public , client có thể truy cập được, còn viết mã nguồn phải viết chỗ khác
+    không client truy cập có mà toang web
+    - thêm https://expressjs.com/en/starter/static-files.html
+        + hỗ trợ client truy cập public
+        + ví dụ :   http://localhost:3000/css/style.css
+  
+#22. Mô hình MVC với Node.JS | Backend RESTFul Server Node.JS (SQL/MongoDB)
+    1.css
+        - cái gì mà sever để cho client xem ấy . thì nó sẽ cho vô public , css nè 
 
- 
+#23. Tổ Chức Các Thư Mục Project | Backend RESTFul Server Node.JS (SQL/MongoDB) 
+    1. migration : ghi cấu hình database của mày
+    2. seeder : tạo data fake cho ứng dụng của chúng ta
+    3. helper : các function để tái sử dụng 
+#24. Áp dụng mô hình MVC với Node.js (Part 1) | Node.JS (SQL/MongoDB) Cho Beginners
