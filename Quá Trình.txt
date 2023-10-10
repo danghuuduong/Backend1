@@ -55,4 +55,6 @@
     1. migration : ghi cấu hình database của mày
     2. seeder : tạo data fake cho ứng dụng của chúng ta
     3. helper : các function để tái sử dụng 
-#24. Áp dụng mô hình MVC với Node.js (Part 1) | Node.JS (SQL/MongoDB) Cho Beginners
+#24. Áp dụng mô hình MVC với Node.js (Part 1) | Node.JS (SQL/MongoDB) Cho Beginners 10/10
+
+#25. Áp dụng mô hình MVC với Node.js (Part 2) | Node.JS (SQL/MongoDB) Cho Beginners
