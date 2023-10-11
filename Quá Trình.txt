@@ -55,6 +55,23 @@
     1. migration : ghi cấu hình database của mày
     2. seeder : tạo data fake cho ứng dụng của chúng ta
     3. helper : các function để tái sử dụng 
+
 #24. Áp dụng mô hình MVC với Node.js (Part 1) | Node.JS (SQL/MongoDB) Cho Beginners 10/10
+    + chia tachs view Engine ra file
 
 #25. Áp dụng mô hình MVC với Node.js (Part 2) | Node.JS (SQL/MongoDB) Cho Beginners
+    + chia tach router , app.user(router)
+    + trong router , goi function controller 
+
+#26. Why Docker - Tại Sao Dùng Docker | Khóa Học Node.JS (SQL/MongoDB) Cho Beginners     
+    - docker giúp code chạy trên mọi môi trường
+        + build, ship then Run , khong quan tấm đến môi trường
+
+#27. Sử dụng Docker | Khóa Học Node.JS (SQL/MongoDB) Cho Beginners
+
+#28 không có , bỏ qua
+
+#29. Relational Database - Chạy MySQL với Docker | Khóa Học Node.JS (SQL/MongoDB) Cho Beginners
+    - 1. DBeaver 
+        + thay thế cho MySQL workpench ( vì nó chạy dc sql thôi)   
+        + DBeaver thì chạy dc my sql , posgres,oracle
